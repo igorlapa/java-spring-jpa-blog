@@ -39,6 +39,6 @@ public class Category {
     }
 
     public void addPost(Post post) {
-        return;
+        this.posts.add(post);
     }
 }
